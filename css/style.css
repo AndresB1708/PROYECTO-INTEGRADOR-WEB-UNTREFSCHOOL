@@ -8,7 +8,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     background-color: #1F8A70;
-    /*text-align: end;*/
+
 }
 
 .navegacion{
@@ -32,15 +32,10 @@ header{
     color: #181823;
     padding: 10px;
     text-decoration: none;
-    /*border: 1px outset; */  
 }
 .navegacion ul li a:hover{
     font-size: 22px;
 }
-/*.navegacion ul li a:{
-    border: 1px outset #fff;
-}*/
-
 
 .img_titulo{
     margin-left: auto;
@@ -124,7 +119,7 @@ header{
     background-color: #EFF5F5;
 }
 
-.titulo_E{
+.titulo_Elegirnos{
     font-size: 28px;
     font-family: sans-serif;
     text-align: center;
@@ -171,7 +166,7 @@ header{
     background-color: #00425A;
 }
 
-.titulo_U{
+.titulo_footer{
     font-size: 28px;
     font-family: sans-serif;
     text-align: left;
@@ -206,7 +201,7 @@ header{
     padding: 15px;
 }
 
-.texto_contenido_U{
+.texto_contenido_footer{
     font-size: 20px;
     font-family: sans-serif;
     text-align: center; 
@@ -316,9 +311,7 @@ footer{
     list-style-type: none;
     padding: 5px;
 }
-/*.espacio{
-    margin-top: 50px;
-}*/
+
 
 /* RESPONSIVE */
 @media all and (min-width: 768px) and (max-width:1154px){
@@ -419,7 +412,7 @@ footer{
         
     }
 
-    .texto_contenido_U{
+    .texto_contenido_footer{
         width: 100%;
         font-size: 15px;
     }
@@ -450,10 +443,11 @@ footer{
     }
     .columna_3_2{
         width: 100%;
+        height: 450px;
     }
     .imagenes{
         width: 100%;
-        height: 1600px;
+        height: 2000px;
     }
     .titulo_3{
         font-size: 25px;
@@ -473,9 +467,7 @@ footer{
     .seg_img{
         width: 100%;
     }
-    .texto_contenido_U{
-        font-size: 18px;
-    }
+
     footer{
         height: 300px;
     }
@@ -490,6 +482,11 @@ footer{
         width: 100%;
     }
 
+    .texto_contenido_footer{
+        width: 100%;
+        font-size: 14px;
+    }
+
 }
 
 .contenido_formulario{
@@ -500,4 +497,14 @@ footer{
     align-items: center;
     padding: 20px;
 
+}
+
+@media all and (min-width: 600px) and (max-width: 650px){
+    .texto_contenido_footer{
+        width: 100%;
+        font-size: 14px;
+    }
+    .columna_4{
+        height: 450px;
+    }
 }
